@@ -92,7 +92,7 @@ class QuizPageState extends State<QuizPage> {
                   });
                 },
                 itemCount: quizResponseModel?.results.length ?? 0,
-                itemBuilder: (context, index) {
+                 itemBuilder: (context, index) {
                   return QuizWidget(
                     quizResponseItemModel: quizResponseModel!.results[index],
                     next: (correct) {
